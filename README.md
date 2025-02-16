@@ -15,13 +15,14 @@ As a result, the geometric representation of a scene is dramatically more accura
 
 
 ## Getting Started
-### Data
-Follow [this](https://github.com/barbararoessle/dense_depth_priors_nerf) repo to download the processed ScanNet data.
 ### Setting up the environment
 TODO
 
+### Data
+Follow [this](https://github.com/barbararoessle/dense_depth_priors_nerf) repo to download the processed ScanNet data.
+
 ### Depth priors and uncertainty maps
-Download our DiffDP depth priors and uncertainty maps [here](https://drive.google.com/drive/folders/1SwPUeiEMO2uE1LrETGytti0aSB-W8a2i?usp=share_link).
+Download our DiffDP depth priors and uncertainty maps [here](https://drive.google.com/drive/folders/1SwPUeiEMO2uE1LrETGytti0aSB-W8a2i?usp=share_link). Move them to the folder containing the ScanNet dataset you downloaded in the previous step.
 
 
 ## Training & Testing

@@ -6,7 +6,7 @@ export PYTHONPATH=Train:${PYTHONPATH}
 current_time=$(date +%s)
 scene=710
 seed=0
-python /pasteur/u/arau/projects/EMD-NeRF/run_emdnerf.py \
+python /path/to/EMD-NeRF/run_emdnerf.py \
 --now $current_time \
 --name replicate \
 --data_dir /path/to/datasets/scannet \
